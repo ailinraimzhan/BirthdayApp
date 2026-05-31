@@ -1,0 +1,81 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?q=80&w=1626&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    color: pink;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255, 0.83);
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.pink {
+    font-size: 45px;
+    color: rgb(255, 0, 217);
+}
+
+#myButton {
+    width: 150px;
+    height: 150px;
+    border: none;
+}
+
+.play {
+    background-image: url('Play.png');
+    background-size: contain;
+}
+
+.pause {
+    background-image: url('Pause.png');
+    background-size: contain;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none ;
+    z-index: 1;
+}
+
+h1 {
+    position: relative;
+    z-index: 2;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
