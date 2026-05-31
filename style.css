@@ -79,3 +79,15 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
+
+@media all and (max-width:800px) {
+    body {
+        height: 100vh;
+    }
+}
+
+@media all and (max-width:500px) {
+    body {
+        height: 100vh;
+    }
+}
